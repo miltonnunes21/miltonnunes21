@@ -1,0 +1,90 @@
+html, body{
+    height: 100%;
+}
+body{
+    background-color: hwb(347 3% 33% / 0.767);
+    color: #bbd5d5;
+}
+
+.profile{
+ text-align: center;
+}
+
+ h1{
+
+    font-family: cursive;
+    margin-top: -7px;
+    margin-bottom: 2px;
+}
+h2{
+    margin-top: 7px;
+    font-family: monospace;
+}
+
+.social {
+display: flex;
+justify-content: space-around;
+}
+.social li{
+    list-style: none;
+    margin-right: 12px;
+    
+}
+
+.minha-foto{
+    width: 100px;
+    border-style: groove;
+    border-radius: 50px 50px 10px 50px;
+    border-color: #d1515c;
+    box-shadow: 100px 90px 90px (srgb rgb(201, 137, 137) rgb(182, 68, 68) rgb(199, 92, 115));
+}
+
+.avatar {
+       width: 50px;
+    border-radius: 25px;
+}
+
+.avatar-diferente{
+    width: 51px;
+    border-radius: 25px;
+}
+
+.avatar-facebook{
+    width: 52px;
+    height: 52px;
+    border-radius: 25px;
+}
+.avatar-GitHub{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.link
+{
+    list-style: none;
+}
+
+.link li{
+    margin: 10px 20px;
+}
+
+.link li a{
+background: aliceblue;
+display: block;
+padding: 23px;
+text-decoration: none;
+font-size: 15px;
+ font-family: cursive;;
+ border-radius: 40px;
+ color: hwb(346 8% 45% / 0.767);
+ font-weight: bold;
+
+
+}
+.link li a span{
+    display: block;
+    background-color: aliceblue;
+    
+    box-shadow: 20px -20px 16px hwb(346 8% 45% / 0.767);
+}
+
