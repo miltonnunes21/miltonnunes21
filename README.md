@@ -1,6 +1,5 @@
 olá! Sou Milton Nunes-
-Estudante de TI, consultor Acadêmico e Auto-Didata
-Estou em constante Aprendizado
+Dev Web, Integrador de IA, consultor Acadêmico e Empreendedor
 
 
 
