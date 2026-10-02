@@ -1,6 +1,5 @@
 olá! Sou Milton Nunes-
-Dev Web, Integrador de IA, consultor Acadêmico e Empreendedor
-
+Sou Arquiteto de Soluções Tech para PMEs, com atuação em transformação digital, desenvolvimento web, automação e Inteligência Artificial.
 
 
 
