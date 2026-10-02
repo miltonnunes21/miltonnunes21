@@ -1,84 +1,318 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkTree- Milton Nunes</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="icon" href="img/milton.jpg">
+    <link rel="stylesheet" href="style.css?v=20261002-9">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <title>Milton Nunes</title>
 </head>
 <body>
-    <div class="profile">
-            <img src="img/milton.jpg"   alt="minha foto" class="minha-foto">
-
-            <h1> Milton Nunes</h1>
-            <h2> Sou Arquiteto de Soluções Tech para PMEs, com atuação em transformação digital, desenvolvimento web, automação e 
-                Inteligência Artificial.r</h2>
-
-            <ul class="social"> 
-                <li>
-                    <a href="wwww.facebook..com/Milton Nunes MN"> 
-                        <img src="img/facebook.png" alt="facebook" class="avatar-facebook">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://wa.me/244949193645">
-                        <img src="img/whatsaap.jpg" alt="whatsaap" class="avatar-diferente">
-                    </a>
-
-                </li>
+    <header>
+        <div class="interface">
+            <div class="logo">
                 
-                <li>
-                    <a href="www.instagram.com/miltonnunes23">
-                        <img src="img/instrgam.jpg" alt="instagram" class="avatar">
+                <a href="#">
+                <img src="./imagens/MNO.png" alt="Logo do site" width="130" height="115">
+                </a>
+            </div>
+
+            <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="menu" id="menu-principal" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="https://wa.me/957 453 930">
+                    <button> Contatos </button>
+                </a>    
+            </div> <!-- Fim do botão de contato -->
+
+             
+
+        </div> <!-- Fim da interface -->
+
+    </header> <!-- Fim do cabeçalho -->
+
+        <main>
+            <section class="banner" id="inicio">
+                <div class="banner-conteudo">
+                     <div class="banner-texto">
+                            <div class="banner-texto-conteudo">
+                                    <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL <span>.</span></h1>
+                                    <p>Crie soluções digitais que impulsionam seu negócio e entregam resultados excepcionais.</p>
+
+                                    <div class="btn-contato">
+                                        <a href="https://wa.me/957 453 930">
+                                            <button> Entre em Contato </button>
+                                        </a>
+                                    </div>
+                            </div>
+
+                            <div class="banner-imagem">
+                                <img src="./imagens/MNN1.png" alt="Imagem do banner">
+                            </div>
+                        </div>    
+                </div>
+
+            </section>
+
+            <section class="especialidades" id="especialidades">
+            <div class="especialidades-conteudo">
+                <h2 class="titulo">Minhas <span>Especialidades.</span></h2>
+                <p>Combino processos, tecnologia e dados para ajudar empresas a trabalhar melhor, tomar decisões com mais clareza e criar melhores experiências para os seus clientes.</p>
+
+                <div class="especialidades-cards">
+                    <div class="card">
+                        <i class="bi bi-code-square" aria-hidden="true"></i>
+                        <span class="card-numero">01.</span>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Criação de aplicações e soluções web orientadas às necessidades do negócio.</p>
+                        <p class="card-detalhe"><strong>Tecnologias:</strong> React.js &bull; Node.js &bull; Express.js &bull; JavaScript &bull; REST APIs</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="bi bi-robot" aria-hidden="true"></i>
+                        <span class="card-numero">02.</span>
+                        <h3>Inteligência Artificial &amp; Automação</h3>
+                        <p>Aplicação de IA e automação para otimizar processos e atendimento, incluindo mensagens automáticas no WhatsApp para captar leads e manter o relacionamento com clientes fidelizados.</p>
+                        <p class="card-detalhe"><strong>Ferramentas:</strong> ChatGPT &bull; Gemini &bull; n8n &bull; APIs de IA &bull; GPT Maker</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="bi bi-bar-chart-line" aria-hidden="true"></i>
+                        <span class="card-numero">03.</span>
+                        <h3>Dados &amp; Sistemas de Gestão</h3>
+                        <p>Estruturação de dados e sistemas para organizar informação e apoiar decisões.</p>
+                        <p class="card-detalhe"><strong>Tecnologias:</strong> Supabase &bull; SQL &bull; Google Sheets &bull; Looker Studio</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="bi bi-diagram-3" aria-hidden="true"></i>
+                        <span class="card-numero">05.</span>
+                        <h3>Arquitetura de Soluções Digitais</h3>
+                        <p>Análise do problema, processos e necessidades do negócio para definir a combinação certa de processos, dados e tecnologia.</p>
+                        <p class="card-detalhe"><strong>Abordagem:</strong> Diagnóstico &bull; Processos &bull; Automação &bull; Dados &bull; Tecnologia &bull; Resultado</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="sobre-conteudo">
+
+                    <div class="sobre-imagem">
+                        <img src="./imagens/MN2.jpeg" alt="Imagem sobre mim" width="300" height="320">
+                    </div>
+
+                    <div class="sobre-texto">
+                        <h3 class="titulo">MUITO PRAZER, <span>SOU <span class="sobre-nome-digitando" data-texto="MILTON NUNES">MILTON NUNES</span></span></h3>
+                        <p>Sou Arquiteto de Soluções Tech para PMEs, com atuação em transformação digital, desenvolvimento web, automação e Inteligência Artificial.</p>
+                        <p>O meu trabalho começa antes da tecnologia: procuro compreender o negócio, os seus processos, os clientes e os problemas que precisam de ser resolvidos.</p>
+                        <p>Combinando processos, tecnologia e dados para ajudar empresas a trabalhar melhor, tomar decisões com mais clareza e criar melhores experiências para os seus clientes.</p>
+                        <p class="sobre-processo">Problema <span>&rarr;</span> Negócio <span>&rarr;</span> Processo <span>&rarr;</span> Dados <span>&rarr;</span> Tecnologia <span>&rarr;</span> Resultado.</p>
+
+                        <div class="btn-social">
+                            <a href="https://web.facebook.com/?_rdc=1&_rdr#" aria-label="Facebook"><button type="button"><i class="bi bi-facebook"></i></button></a>
+                            <a href="https://www.instagram.com/miltonnunes23/" aria-label="Instagram"><button type="button"><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/miltonnunes21" aria-label="LinkedIn"><button type="button"><i class="bi bi-linkedin"></i></button></a>
+                            <a href="www.tiktok.com/@miltounes" aria-label="TikTok"><button type="button"><i class="bi bi-tiktok"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+         </section> <!---Fim Sobre Mim-->
+           
+           <section class="portifolio" id="projetos">
+                <div class="interface">
+                    <h4 class="titulo"> MEU <span>PORTIFÓLIO.</span></h4>
+                        
+                    <div class="flex">
+                        <figure class="projeto">
+                            <img class="img-port" src="./imagens/pitruca-biblioteca.png" alt="Ecrã de autenticação do Sistema Bibliotecário Grupo Pitruca">
+                            <figcaption class="projeto-detalhes">
+                                <h3>PROJECTO GRUPO PITRUCA — SISTEMA BIBLIOTECÁRIO</h3>
+                                <p>Sistema digital para gestão e organização da biblioteca, facilitando o controlo de livros, utilizadores, empréstimos e devoluções.</p>
+                                <p><strong>Tecnologias:</strong> React &bull; Node.js &bull; Supabase &bull; JavaScript &bull; Git/GitHub</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="projeto">
+                            <img class="img-port" src="./imagens/xeka-gestao-documental.png" alt="Interface principal do Sistema Xeka de Gestão Documental">
+                            <figcaption class="projeto-detalhes">
+                                <h3>SISTEMA XEKA — GESTÃO DOCUMENTAL COM IA</h3>
+                                <p>Plataforma web para gerir documentos com apoio de inteligência artificial: permite carregar ficheiros, extrair texto de PDFs, imagens e documentos Word, organizar metadados e pesquisar documentos.</p>
+                                <p><strong>Tecnologias:</strong> React &bull; TypeScript &bull; Node.js &bull; NestJS &bull; PostgreSQL &bull; Prisma &bull; OpenAI API &bull; Docker</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="projeto projeto-plan-urb">
+                            <img class="img-port" src="./imagens/Projecto_Plan_Urb.png" alt="Página inicial do Planurb Calemba 2">
+                            <figcaption class="projeto-detalhes">
+                                <h3>PLANURB CALEMBA 2</h3>
+                                <p>Plataforma para monitorizar e relatar ocorrências urbanas no bairro.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="projeto projeto-barber-shop">
+                            <img class="img-port" src="./imagens/Barber Shop _ Profissionalismo e excelência - Google Chrome 02_10_2026 14_52_35.png" alt="Página inicial da Barber Shop, com serviços de barbearia e agendamento">
+                            <figcaption class="projeto-detalhes">
+                                <h3>BARBER SHOP</h3>
+                                <p>Website para apresentar serviços e facilitar o agendamento na barbearia.</p>
+                            </figcaption>
+                        </figure>
+                        <figure class="projeto projeto-adicionar">
+                            <div class="novo-projeto">
+                                <i class="bi bi-plus-lg" aria-hidden="true"></i>
+                                <span>Adicionar projecto</span>
+                            </div>
+                            <figcaption>Novo projecto</figcaption>
+                        </figure>
+                        
+                    </div>
+                </div>
+            
+
+           </section>
+
+           <section class="contato" id="contato">
+                <div class="interface">
+                    <h2 class="titulo">VAMOS <span>CONVERSAR?</span></h2>
+                    <p class="contato-subtitulo">Vamos transformar as suas ideias em realidade digital.</p>
+
+                    <form class="formulario-contato" action="/api/contact" method="post">
+                        <div class="campo-armadilha" aria-hidden="true">
+                            <label for="website">Deixe este campo vazio</label>
+                            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+                        </div>
+                        <label for="nome">Seu nome</label>
+                        <input id="nome" name="nome" type="text" placeholder="Como podemos chamar você?" required>
+
+                        <label for="email">Seu e-mail</label>
+                        <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required>
+
+                        <label for="telefone">Seu contacto</label>
+                        <input id="telefone" name="telefone" type="tel" placeholder="+244 000 000 000">
+
+                        <label for="mensagem">Sua mensagem</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Conte-me um pouco sobre o seu projecto." required></textarea>
+
+                        <button type="submit">ENVIAR MENSAGEM <i class="bi bi-arrow-up-right"></i></button>
+                                            <p class="formulario-status" id="contato-status" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+           </section>
+
+        </main>
+
+        <footer>
+            <div class="interface rodape-conteudo">
+                <div class="rodape-topo">
+                    <a class="rodape-logo" href="#" aria-label="Voltar ao início">
+                        <img src="./imagens/MNO.png" alt="Logótipo Milton Nunes">
                     </a>
-                </li>
+                    <div class="rodape-redes">
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/miltonnunes23/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://github.com/miltonnunes21" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="rodape-linha"></div>
+                <a class="rodape-email" href="domingosnunes2002@gmail.com"><i class="bi bi-envelope-fill"></i> domingosnunes2002@gmail.com</a>
+            </div>
+        </footer>
 
-                <li>
-                    <a href="www.twiter.com/Milton Nunes/">
-                        <img src="img/twiter.png" alt="twiter" class="avatar">
-                    </a>
-                </li>
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle');
+            const menu = document.querySelector('.menu');
+            const menuLinks = document.querySelectorAll('.menu a');
 
-                <li>
-                    <a href="Github.com/miltonnunes21"> 
-                        <img src="img/Github.jpg" alt="Github" class="avatar-GitHub">
-                    </a>
-                </li>
+            function fecharMenu() {
+                menu.classList.remove('menu-aberto');
+                menuToggle.classList.remove('menu-toggle-aberto');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.setAttribute('aria-label', 'Abrir menu');
+            }
 
+            menuToggle.addEventListener('click', () => {
+                const menuAberto = menu.classList.toggle('menu-aberto');
+                menuToggle.classList.toggle('menu-toggle-aberto', menuAberto);
+                menuToggle.setAttribute('aria-expanded', String(menuAberto));
+                menuToggle.setAttribute('aria-label', menuAberto ? 'Fechar menu' : 'Abrir menu');
+            });
 
+            menuLinks.forEach((link) => link.addEventListener('click', fecharMenu));
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape') fecharMenu();
+            });
 
-            </ul>
+            const formularioContato = document.querySelector('.formulario-contato');
+            const statusContato = document.querySelector('#contato-status');
+            formularioContato.addEventListener('submit', async (event) => {
+                event.preventDefault();
 
-            <ul class="link">
-                <li>
-                    <a href="https://www.udemy.com/course/curso-desenvolvedor-web-full-stack-jr-completo/">
-                        Desenvolvimento Web Full Stack   </br></br>
-                        <span>Curso de Desenvolvimento Web Full Stack- Torna-se um Desenvolvedor.</span>
-                    </a>
-                </li>
+                const botaoEnviar = formularioContato.querySelector('button[type="submit"]');
+                botaoEnviar.disabled = true;
+                statusContato.dataset.estado = 'enviando';
+                statusContato.textContent = 'A enviar a sua mensagem...';
 
-                <li>
-                    <a href="https://www.youtube.com/watch?v=XeUiJJN0vsE">
-                        Fábrica de Aplicativo- Flutter</br></br>
-                        <span>Aprenda a criar aplicações móveis Android e IOs usando a tecnologia Flutter.</span>
-                    </a>
+                if (location.protocol === 'file:') {
+                    statusContato.dataset.estado = 'erro';
+                    statusContato.textContent = 'Para testar o formulário, execute npm run dev e abra o endereço local do Vercel.';
+                    botaoEnviar.disabled = false;
+                    return;
+                }
 
-                </li>
+                try {
+                    const resposta = await fetch(formularioContato.action, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(Object.fromEntries(new FormData(formularioContato)))
+                    });
+                    const resultado = await resposta.json().catch(() => ({}));
 
-                <li>
-                    <a href="https://instagram.com/ideiasacademicas?igshid=NTc4MTIwNjQ2YQ==" class="especial">
-                        Consultória Académica </br></br>
-                        <span> Você que é estudante, venha receber Consultória e mentoria Académica direcionada.</span>
-                    </a>
-                </li>
+                    if (!resposta.ok) {
+                        throw new Error(resultado.message || 'Não foi possível enviar a mensagem.');
+                    }
 
-                
+                    formularioContato.reset();
+                    statusContato.dataset.estado = 'sucesso';
+                    statusContato.textContent = 'Mensagem enviada. Obrigado pelo contacto!';
+                } catch (erro) {
+                    statusContato.dataset.estado = 'erro';
+                    statusContato.textContent = erro.message || 'Falha ao enviar. Tente novamente mais tarde.';
+                } finally {
+                    botaoEnviar.disabled = false;
+                }
+            });
 
-            </ul>
+            const nomeDigitando = document.querySelector('.sobre-nome-digitando');
+            if (nomeDigitando && 'IntersectionObserver' in window) {
+                const observadorNome = new IntersectionObserver(([entrada]) => {
+                    if (entrada.isIntersecting) {
+                        nomeDigitando.classList.add('nome-animar');
+                        observadorNome.disconnect();
+                    }
+                }, { threshold: 0.5 });
 
-    </div>
-
+                observadorNome.observe(nomeDigitando);
+            } else if (nomeDigitando) {
+                nomeDigitando.classList.add('nome-animar');
+            }
+        </script>
+        
 </body>
 </html>

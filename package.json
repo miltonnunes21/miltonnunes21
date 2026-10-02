@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-milton-nunes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx vercel dev"
+  },
+  "dependencies": {
+    "resend": "^6.32.0"
+  }
+}
